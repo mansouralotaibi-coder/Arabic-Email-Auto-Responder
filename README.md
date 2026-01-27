@@ -4,7 +4,7 @@ This project is a sophisticated, AI-driven automation system designed to handle 
 
 A key feature of this system is its **Self-Learning Capability**, which allows it to deduce and update administrative rules by analyzing manual replies sent by the human manager.
 
-## 📂 Project Structure
+##  Project Structure
 
 The project is modularized into specific components handling configuration, processing, logic, and execution.
 
@@ -20,7 +20,7 @@ The project is modularized into specific components handling configuration, proc
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 * **Hybrid RAG System:** Combines semantic search (Embeddings) with keyword search (BM25) to retrieve accurate information from internal documents.
 * **Arabic OCR Support:** Capable of reading scanned Arabic PDFs and images using `ArabicOcr`.
@@ -28,7 +28,7 @@ The project is modularized into specific components handling configuration, proc
 * **Intent Classification:** Automatically categorizes emails into contexts like HR, Maintenance, Administrative, or Scheduling.
 * **Continuous Learning:** The system monitors the "Sent" folder. If the manager manually replies to an email, the system analyzes the reply, extracts the rule used, and updates its own knowledge base for future automation.
 
-## 🛠️ Dependencies
+##  Dependencies
 
 The system relies on the following key libraries:
 * `transformers` & `torch` (for LLM and Embeddings)
@@ -38,7 +38,7 @@ The system relies on the following key libraries:
 * `fitz` (PyMuPDF) & `openpyxl` (for file parsing)
 * `hijri_converter` (for date handling)
 
-## ⚙️ How to Run
+##  How to Run
 
 1.  Ensure all `requirements.txt` libraries are installed.
 2.  Place your Google Service Account JSON and credentials in the root directory.
